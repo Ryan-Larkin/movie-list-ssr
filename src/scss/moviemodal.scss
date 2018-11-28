@@ -1,0 +1,42 @@
+.movie-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: white;
+  padding: 30px;
+
+	&__search {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(105px, 1fr));
+		overflow-y: auto;
+	}
+}
+
+.movie-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.search-result {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	p {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

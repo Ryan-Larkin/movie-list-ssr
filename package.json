@@ -1,0 +1,52 @@
+{
+  "name": "new-cra",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-loadable": "^5.5.0",
+    "react-modal": "^3.6.1",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-scripts": "2.0.5",
+    "react-toastify": "^4.4.0",
+    "react-toastify-redux": "^1.0.0-rc.2",
+    "redux": "^4.0.1",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "superagent": "^4.0.0-beta.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react-app": "^5.0.4",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "ignore-styles": "^5.0.1",
+    "node-sass": "^4.9.4"
+  }
+}
